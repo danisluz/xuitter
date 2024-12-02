@@ -1,77 +1,77 @@
-# Projeto X Clone - 1/42% do antigo Twitter
+# Project X Clone - 1/42% of the former Twitter
 
-## Descrição
+## Description
 
-Este é um projeto de clone parcial da rede social **X** (anteriormente conhecida como Twitter), desenvolvido com **Spring Boot**. O objetivo é implementar funcionalidades básicas da plataforma, representando 1/42% da experiência completa da rede social. Este projeto tem fins educacionais e serve como um estudo de arquitetura de sistemas, design de APIs e integração de módulos.
-
----
-
-## Funcionalidades Previstas
-
-### Funcionalidades Implementadas (1/42%):
-- **Postagem de Tweets:**
-  - Permitir que usuários publiquem mensagens curtas ("tweets") de até 280 caracteres.
-- **Visualização de Timeline:**
-  - Exibir os tweets mais recentes postados pelos usuários seguidos.
-- **Criação de Perfil de Usuário:**
-  - Cadastro de usuário com nome, username, e-mail e senha.
-
-### Funcionalidades Futuras:
-- Retweets e Curtidas.
-- Sistema de Seguidores e Seguindo.
-- Notificações Simples.
-- Hashtags e Mççoes.
+This is a partial clone project of the social network **X** (formerly known as Twitter), developed using **Spring Boot**. The goal is to implement basic features of the platform, representing 1/42% of the full social network experience. This project is for educational purposes and serves as a study of system architecture, API design, and module integration.
 
 ---
 
-## Tecnologias Utilizadas
+## Planned Features
 
-- **Backend:** Spring Boot (versão mais recente)
-- **Banco de Dados:** PostgreSQL
-- **Segurança:** Spring Security com JWT
+### Implemented Features (1/42%):
+- **Tweet Posting:**
+  - Allow users to post short messages ("tweets") up to 280 characters.
+- **Timeline Viewing:**
+  - Display the most recent tweets from followed users.
+- **User Profile Creation:**
+  - User registration with name, username, email, and password.
+
+### Future Features:
+- Retweets and Likes.
+- Follower and Following System.
+- Simple Notifications.
+- Hashtags and Mentions.
+
+---
+
+## Technologies Used
+
+- **Backend:** Spring Boot (latest version)
+- **Database:** PostgreSQL
+- **Security:** Spring Security with JWT
 - **APIs:** RESTful APIs
-- **Testes:** JUnit e Mockito
-- **Documentação:** Swagger/OpenAPI
+- **Testing:** JUnit and Mockito
+- **Documentation:** Swagger/OpenAPI
 
 ---
 
-## Requisitos de Sistema
+## System Requirements
 
-- **Java:** Versão 17 ou superior
-- **Maven:** Versão 3.8+
-- **PostgreSQL:** Versão 13+
+- **Java:** Version 17 or higher
+- **Maven:** Version 3.8+
+- **PostgreSQL:** Version 13+
 
 ---
 
-## Instalação e Configuração
+## Installation and Setup
 
-### 1. Clone o repositório:
+### 1. Clone the repository:
 ```bash
-$ git clone https://github.com/seu-usuario/x-clone.git
+$ git clone https://github.com/your-username/x-clone.git
 ```
 
-### 2. Configure o banco de dados:
-Crie um banco de dados PostgreSQL com o nome `x_clone`.
-Atualize o arquivo `application.properties` com suas credenciais:
+### 2. Configure the database:
+Create a PostgreSQL database named `x_clone`.
+Update the `application.properties` file with your credentials:
 ```properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/x_clone
-spring.datasource.username=seu_usuario
-spring.datasource.password=sua_senha
+spring.datasource.username=your_username
+spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 ```
 
-### 3. Compile e rode o projeto:
+### 3. Build and run the project:
 ```bash
 $ mvn clean install
 $ mvn spring-boot:run
 ```
 
-### 4. Acesse a aplicação:
-Abra o navegador e acesse: [http://localhost:8080](http://localhost:8080)
+### 4. Access the application:
+Open your browser and go to: [http://localhost:8080](http://localhost:8080)
 
 ---
 
-## Estrutura do Projeto
+## Project Structure
 
 ```plaintext
 src/
@@ -91,24 +91,24 @@ src/
 
 ---
 
-## Contribuições
+## Contributions
 
-Contribuições são bem-vindas! Para colaborar:
-1. Fork o repositório.
-2. Crie uma branch para sua funcionalidade (`git checkout -b minha-funcionalidade`).
-3. Submeta seu PR com uma descrição detalhada.
-
----
-
-## Licença
-
-Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
+Contributions are welcome! To collaborate:
+1. Fork the repository.
+2. Create a branch for your feature (`git checkout -b my-feature`).
+3. Submit your PR with a detailed description.
 
 ---
 
-## Contato
+## License
 
-Em caso de dúvidas ou sugestões, entre em contato:
-- **Nome:** Seu Nome
-- **E-mail:** seuemail@example.com
-- **LinkedIn:** [linkedin.com/in/seu-perfil](https://linkedin.com/in/seu-perfil)
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+## Contact
+
+For questions or suggestions, contact:
+- **Name:** Your Name
+- **Email:** youremail@example.com
+- **LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
