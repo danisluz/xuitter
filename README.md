@@ -109,6 +109,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 
 For questions or suggestions, contact:
-- **Name:** Your Name
-- **Email:** youremail@example.com
-- **LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+- **Name:** Daniel Luz
+- **Email:** danisluz@gmail.com
+- **LinkedIn:** [https://linkedin.com/in/your-profile](https://www.linkedin.com/in/danisluz/)
